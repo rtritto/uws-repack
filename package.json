@@ -1,5 +1,5 @@
 {
-  "name": "template-yarn-berry",
+  "name": "uws-repack",
   "version": "0.0.1",
   "license": "MIT",
   "packageManager": "yarn@4.5.0",
@@ -12,14 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rtritto/template-yarn-berry.git"
+    "url": "git+https://github.com/rtritto/uws-repack.git"
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "start": "tsx ./start.ts",
-    "lint": "eslint src/**/*.{ts,tsx} *.ts",
+    "lint": "eslint src/**/*.ts",
     "build": "pkgroll",
     "prepublishOnly": "yarn build",
     "od": "yarn outdated"
